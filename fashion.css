@@ -1,0 +1,356 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Alegreya', serif;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.overallcontainer{
+	overflow: hidden;
+}
+
+.image_{
+	display:block;
+}
+
+.image_ img{
+	width:100%;
+}
+
+.nav-bar {
+	display:block;
+	position:absolute;
+	top:20px;
+	right:0;
+
+}
+
+.nav-bar li{
+	display: inline-block;
+	margin-right:  25px;
+	padding: 9px 10px;
+}
+
+.nav-bar a{
+	  font-family: 'Lato', sans-serif ;
+	  font-weight: 300;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  list-style-type: none;
+	  color:white;
+	  letter-spacing: 3px;
+	  font-size: 12px;
+
+
+}
+
+.nav-bar a:hover{
+	color:#CCCCCC;
+}
+.header-title{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 200;
+	letter-spacing: 3px;
+	font-size: 60px;
+	margin: auto;
+	text-align: center;
+	padding:30px 0px 0px 0px;
+	border-bottom: double grey;
+	width:400px;
+}
+.fashion-body {
+	text-align: center;
+	margin:auto;
+	overflow: hidden;
+	padding-bottom: 50px;
+	height:;
+}
+
+.row-one-left{
+	display: inline-block;
+  vertical-align: top;
+	width:40%;
+	padding: 30px ;
+	margin-right:
+}
+
+
+
+.fashion_img{
+	width:70%;
+	border:black solid 1px;
+}
+.christmas_special{
+	display: inline-block;
+	width:90%;
+	margin:auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid grey;
+}
+.christmas_special img{
+	display:inline-block;
+	width:40%;
+}
+
+.row-one-right{
+	display: inline-block;
+  vertical-align: top;
+	width:40%;
+	padding: 30px;
+	margin-left:
+}
+
+
+
+.social-bar {
+  text-align: center;
+  padding-top:10px;
+  margin: 20px 0 0;
+}
+.social-bar li{
+  display: inline-block;
+  width:24%;
+  max-width: 100px;
+}
+
+.social-bar img{
+  width:100%;
+  max-width: 50px;
+}
+
+.image_b {
+  text-align: center;
+}
+
+.image_b img{
+  display: inline;
+  width:100%;
+  max-width: 600px;
+}
+.description{
+	padding:20px 0px;
+	height:150px;
+	overflow: hidden;
+
+}
+
+.date{
+	font-size: 10px;
+	font-family: 'Lato', sans-serif ;
+	text-transform: uppercase;
+}
+
+.title{
+font-family: 'Oswald', sans-serif;
+font-weight: 300;
+letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.caption{
+ font-family: 'Lato', sans-serif;
+font-weight: 300;
+ font-size: 13px;
+ letter-spacing: 0px;
+ color: black;
+ padding-bottom: 2px;
+}
+
+.illustration_description{
+	padding:0px 0px;
+	height:100%;
+	overflow: hidden;
+}
+
+.illustration_description .title{
+ border:none;
+ padding:0px;
+}
+
+.illustration_description .date{
+padding: 5px 0px;
+}
+
+.mailing-text{
+	padding:15px ;
+	width:35%;
+	margin:auto;
+	border:pink 2px dashed;
+	border-radius:20px;
+
+}
+
+#mc_embed_signup{
+	padding-top:15px;
+	margin: auto;
+	width:280px;
+
+}
+
+form#mc-embedded-subscribe-form{
+	margin:auto;
+	width:99%;
+	padding: 0px;
+}
+
+#mc_embed_signup input{
+	margin:auto;
+	width:99%;
+	padding: 0px;
+	border-radius: 10px;
+	background:pink;
+
+}
+
+.mc-field-group{
+	width:99%;
+	margin:auto;
+}
+
+.email_font{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	text-align: center;
+}
+
+.clear{
+	text-align: center;
+}
+
+.mail_line{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.copyright{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.copyright p{
+	text-transform: uppercase;
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+
+.copyright a{
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	color:#F94990;
+}
+
+.copyright a:hover{
+	color:black;
+}
+
+@media (max-width:600px){
+	.nav-bar a{
+		font-size: 9px;
+		float:left;
+	}
+
+	.description{
+		padding:10px 0px;
+		overflow:hidden;
+		height:100%;
+
+	}
+
+	.input-box{
+	height:20px;
+	width:200px;
+	font-size: 12px;
+	}
+	.submit-button{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	height:24px;
+	width:204px;
+	border:2px black solid;
+	}
+	.mailing-text{
+		font-size: 14px;
+		padding:5px;
+	}
+	.header-title{
+	font-size: 40px;
+	}
+
+	.mailing-text{
+  	padding:10px;
+  	width:70%;
+  	margin:auto;
+    margin-bottom: 20px;
+  }
+
+  .email_font{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 13px;
+  	font-weight: 300px;
+  	text-align: center;
+  }
+
+  .mail_line{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 14px;
+  	font-weight: 300;
+  }
+
+  .mail_line_smaller{
+  	font-family: 'Lato', sans-serif;
+  	font-size: 10px;
+  	font-weight: 300;
+  	padding: 5px 0px;
+  }
+  #mc_embed_signup{
+  	width:60%;
+  	padding-top:0px;
+  }
+
+  .christmas_special {
+    text-align: center;
+  }
+
+  .christmas_special img {
+    margin: 20px 0;
+    width: 70%;
+  }
+
+}
+
+@media (max-width:890px){
+	.nav-bar li a:hover{
+		background: black;
+	}
+	.nav-bar {
+		width:150px;
+		background: black;
+		opacity: 0.5;
+
+	}
+	.nav-bar li{
+		float:left;
+		padding-bottom: 5px;
+	}
+
+  .row-one-left, .row-one-right {
+    width: 100%;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
